@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: #323232;
+            font-family: 'poppins';
+        }
+
+        .header {
+            position: relative;
+            height: 12vh;
+            width: 100%;
+            background-color: #222;
+        }
+
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 40px;
+            font-weight: bold;
+            color: #aaa;
+            position: absolute;
+            left: 200px;
+            top: 25px;
+        }
+
+        .logo span {
+            color: #0f0;
+        }
+
+        .nav {
+            position: absolute;
+            padding: 1.5%;
+            right: 60px;
+            top: 10px;
+            text-transform: uppercase;
+            color: #0f0;
+            background-color: #111;
+            letter-spacing: 1px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            width: 100%;
+        }
+
+        .in {
+            transform: scale(1.5);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+            border-radius: 10px;
+            padding: 5%;
+            background-color: #111;
+        }
+
+        .title {
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 30px;
+            color: #ccc;
+            font-weight: bold;
+            position: absolute;
+            top: 120px;
+            left: 580px;
+        }
+
+        .footer {
+            width: 100%;
+            height: 10vh;
+            position: absolute;
+            bottom: 0;
+            background-color: #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+        }
+    </style>
+    <div class="header">
+        <div class="logo">EVER <span>PRO</span></div>
+        <div class="nav">Payments</div>
+    </div>
+    <div class="title">
+        choose your preference
+    </div>
+    <div class="main">
+        <div class="in">
+
+            <!-- PAYPAL BUTTONS HERE  -->
+            <!-- Set up a container element for the button -->
+            <div id="paypal-button-container"></div>
+
+            <!-- Include the PayPal JavaScript SDK -->
+            <script
+                src="https://www.paypal.com/sdk/js?client-id=AfCGBJHugxDDfrnblpvsWjhX6D3rhW6RDYXfPInXs60HpGkV8SE8ENr3TJ3C3buULKYAXyq6ptUAgc6Q&currency=USD"></script>
+
+            <script>
+                // Render the PayPal button into #paypal-button-container
+                paypal.Buttons({
+
+                    // Set up the transaction
+                    createOrder: function (data, actions) {
+                        return actions.order.create({
+                            purchase_units: [{
+                                amount: {    // default transaction value
+                                    value: '15'
+                                }
+                            }]
+                        });
+                    },
+
+                    // Finalize the transaction
+                    onApprove: function (data, actions) {
+                        return actions.order.capture().then(function (details) {
+                            // Show a success message to the buyer
+                            alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                        });
+                    }
+
+
+                }).render('#paypal-button-container');
+            </script>
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright EVERPRO 2020
+    </div>
+
+</body>
+
+</html>

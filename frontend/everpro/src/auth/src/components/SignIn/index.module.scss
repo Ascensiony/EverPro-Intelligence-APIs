@@ -1,0 +1,99 @@
+.buttons { 
+  
+   position: relative;
+   padding-left: 3em;
+
+
+    h1 {
+      //text-align: center;
+      font-family: 'Overpass', sans-serif;
+      font-weight: 0;
+      font-size: 2rem;
+      color: #ccc;
+      padding-top:100px;
+
+
+      
+   }
+  
+}
+
+
+
+button {
+    background-color: #97b898;
+  color: black;
+  padding: 9px 16px  ;
+  margin: 5px 0 ;
+  border: black;
+  cursor: pointer;
+  width: 12%;
+  opacity: 0.9;
+  align-content:right;
+  border-radius: 6px;
+  //float: right;
+
+
+  border-spacing: 15px;
+  //font-size: 15px;
+
+ 
+
+}
+
+button:hover {
+    opacity:1;
+  }
+
+  input[type=text], input[type=password] {
+    width: 22.5%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: list-item;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+
+ 
+    position: relative;
+    padding-left: 3em;
+    
+
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: color;
+
+  }
+
+
+
+
+
+
+
+  .socialcontainer {
+    color: black;
+    padding: 9px 16px 0 571px ;
+    margin: 5px 0 ;
+    border: black;
+    cursor: pointer;
+    width: 12%;
+    opacity: 0.9;
+    align-content:right;
+    border-radius: 6px;
+    
+
+
+  
+  
+  
+
+
+a {
+ color:  rgb(255, 255, 255);
+ align-content: center;
+ 
+}
+}

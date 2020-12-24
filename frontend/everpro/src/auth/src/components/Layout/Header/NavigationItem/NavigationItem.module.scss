@@ -1,0 +1,19 @@
+.NavigationItem {
+
+   display: block;
+   margin: 0 0.5em;
+
+   a {
+      color: #aaa;
+      width: 100%;
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      padding: 1.2em 2em;
+   }
+
+   &:hover,  {
+      color: #0f0;
+      background-color: #111;
+   }
+}

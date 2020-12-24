@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$text-primary: #00ffc3;
+
+/*font-family: 'Poppins', sans-serif;*/
+
+.consumerSection {
+   height: 80vh;
+   position: relative;
+   box-sizing: content-box;
+   margin: 10em 1em 5em 1em; /* top right bottom left*/
+
+   .headline {
+      font-size: 3rem;
+      font-weight: 100;
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      width: 30%;
+      min-width: 6em;
+      font-family: 'Poppins', sans-serif;
+      color: #fbfffe;
+
+      strike {
+         color: #111;
+         font-weight: bold;
+      }
+
+      span {
+         color: #2A7F62;
+         font-weight: bold;
+      }
+
+      b {
+         color: #0f0;
+      }
+   }
+
+   .search {
+      position: absolute;
+      top: 55%;
+      left: 10%;
+      padding: 1em;
+      font-size: 1.5rem;
+      width: 20vw;
+      transition: 0.5s;
+      transform: scale(0.8);
+      cursor: pointer;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      background: #222;
+      color: #bbb;
+      border: 1px solid #bbb;
+
+      &:hover {
+         transform: scale(0.9);
+         color: #0f0;
+         border: 1px solid #0f0;
+      }
+
+      &:active {
+         transform: scale(0.7);
+      }
+
+      .arrow {
+         position: absolute;
+         right: 2em;
+      }
+   }
+
+   .image {
+      position: relative;
+      top: 70%;
+
+      .person {
+         width: 20%;
+         position: absolute;
+         bottom: 10vh;
+         left: 40vw;
+         filter: drop-shadow(0 0 0.75rem #111);
+      }
+
+
+   }
+
+
+
+}
+
+@media (max-width: 700px) {
+   .headline {
+      font-size: 2rem !important;
+   }
+   .image {
+      display: none;
+   }
+   .search {
+      top: 60%;
+   }
+}

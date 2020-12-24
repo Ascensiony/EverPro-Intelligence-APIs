@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.business {
+   margin-top: 5em;
+   margin-bottom: 15em;
+   position: relative;
+   height: 80vh;
+
+   h1 {
+      position: absolute;
+      left: 10%;
+      top: 30%;
+      margin-top: 2em;
+      font-family: 'Overpass', sans-serif;
+      font-weight: 100;
+      font-size: 4rem;
+
+      span {
+         font-weight: 900;
+      }
+   }
+
+   .cards {
+      transform: scale(0.9);
+      position: absolute;
+      right: 5%;
+      top: 0;
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+   }
+}

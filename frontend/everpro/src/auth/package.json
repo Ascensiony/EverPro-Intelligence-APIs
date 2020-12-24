@@ -1,0 +1,33 @@
+{
+  "name": "react-firebase-authentication",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^1.19.26",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "firebase": "^8.1.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^4.0.1",
+    "react-typist": "^2.0.5",
+    "react-typist-loop": "0.0.5",
+    "recompose": "^0.30.0",
+    "social-media-icons-react": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --passWithNoTests",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,65 @@
+
+.searchBar {
+   //position: relative;
+
+   p {
+      margin: 1em;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: white;
+   }
+
+   form {
+      position: relative;
+      //background-color: #777;
+
+      .icon {
+         position: absolute;
+         height: 100%;
+         font-size: 1.5rem;
+         left: 0.7em;
+         color: #aaa;
+      }
+
+      input[type=text] {
+         padding: 1em 1em 1em 3em;
+         font-size: 1.3rem;
+         border: none;
+         //border-radius: 0.5rem;
+         width: 100%;
+         background: #222;
+         appearance: none;
+         color: white;
+         letter-spacing: 2px;
+         //box-shadow: 0 10px 20px rgba(124, 185, 114, 0.6);
+
+         &:active {
+            border: none;
+         }
+      }
+
+      button {
+         position: absolute;
+         right: 0;
+         //margin: 0.4em;
+         border: none;
+         padding: 0.6em 1.5em;
+         height: 100%;
+         font-size: 1.1rem;
+         //border-radius: 0.5rem;
+         transition: 0.5s;
+         cursor: pointer;
+         //box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+         background: #333;
+         color: #bbb;
+         //border: 1px solid #bbb;
+
+         &:hover {
+            color: #0f0;
+            background: #111;
+            //border: 1px solid #0f0;
+         }
+      }
+   }
+}

@@ -1,0 +1,17 @@
+.Main {
+   display: flex;
+   flex-direction: row;
+   overflow: hidden;
+
+   a {
+      width: 100%;
+      text-decoration: none;
+   }
+}
+
+
+@media (max-width: 700px) {
+   .Main {
+      flex-direction: column;
+   }
+}

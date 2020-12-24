@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.card {
+   width: 80%;
+   max-width: 720px;
+   margin: 0.5em;
+   height: 15vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   transition: 0.5s ease-in-out;
+   position: relative;
+   text-decoration: none;
+   color: #ddd;
+   border-radius: 5%;
+   background: linear-gradient(145deg, #2d2d2d, #363636);
+   box-shadow: 10px 10px 20px #2b2b2b,
+   -10px -10px 20px #3a3a3a;
+
+   .one {
+      position: absolute;
+      bottom: 30%;
+      left: 8%;
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      font-weight: 600;
+   }
+
+   .desc {
+      position: absolute;
+      bottom: 10%;
+      left: 8%;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      font-weight: 200;
+      transition: 0.3s;
+      color: #dddddd;
+   }
+
+   span {
+      font-family: 'Titan One', cursive;
+      position: absolute;
+      left: -25%;
+      bottom: 0;
+      font-size: 5rem;
+      transition: 0.5s font-size;
+      opacity: 0;
+   }
+
+   .icon {
+      font-size: 3rem;
+      position: absolute;
+      right: 10%;
+      opacity: 0;
+      transition: 0.5s ease-in-out;
+      color: #0f0;
+   }
+
+   &:hover {
+      height: 12em;
+      transform: scale(1.1);
+      margin: 2em;
+      transition: 0.5s;
+      color: #0f0;
+
+      background: linear-gradient(145deg, #363636, #2d2d2d);
+      box-shadow: 10px 10px 20px #2b2b2b,
+      -10px -10px 20px #3a3a3a;
+
+      .desc {
+         color: #fff;
+         bottom: 17%;
+      }
+
+      span {
+         color: #000;
+         font-size: 7rem;
+         opacity: 0.1;
+      }
+
+      .icon {
+         opacity: 1;
+      }
+   }
+}

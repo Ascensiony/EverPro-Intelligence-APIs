@@ -1,0 +1,63 @@
+$phone-size: 700px;
+$bg-primary: #323232;
+$bg-primary-light: #444;
+$text-primary: #00ffc3;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.Square {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: $bg-primary;
+   height: 100vh;
+   cursor: pointer;
+   box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.5);
+   transition: 0.5s;
+   position: relative;
+
+   p {
+      color: $text-primary;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+      padding: 2em;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: 1s;
+      filter: blur(1.5px);
+      z-index: 1;
+      font-family: 'Montserrat', sans-serif;
+      height: 50%;
+   }
+
+   &:hover {
+      box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+      background-image: linear-gradient(to right, #00ffc3, #00fffb);
+
+      p {
+         filter: blur(0px);
+         background-color: $bg-primary;
+         height: 25%;
+         box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+      }
+   }
+
+}
+
+@media (max-width: $phone-size) {
+   .Square {
+      width: 100%;
+      height: 50vh;
+      filter: blur(0px);
+
+      p {
+         filter: blur(0px);
+      }
+   }
+
+
+}

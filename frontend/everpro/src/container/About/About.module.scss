@@ -1,0 +1,163 @@
+.about {
+   height: 80vh;
+   width: 100%;
+   margin-top: 10vh;
+   position: relative;
+   padding-left: 3em;
+
+   .intro {
+      position: absolute;
+      margin-top: 10em;
+      margin-left: 5em;
+      width: 35%;
+      h1 {
+         //text-align: center;
+         font-family: 'Overpass', sans-serif;
+         font-weight: 100;
+         font-size: 3rem;
+         color: #ccc;
+
+         span {
+            font-weight: 900;
+            color: #0f0;
+         }
+      }
+
+      p {
+         margin-top: 3em;
+         color: #ccc;
+         font-size: 1.2rem;
+         word-spacing: 3px;
+         letter-spacing: 2px;
+      }
+   }
+
+   .team_image {
+      position: absolute;
+      top: 13vh;
+      right: 0;
+      width: 50vw;
+   }
+}
+
+.us {
+   padding-top: 4vh;
+   height: 100vh;
+   width: 100%;
+   background: #1d1e1d;
+   display: flex;
+   flex-direction: row;
+
+   .images {
+      //background-color: #444;
+      width: 50%;
+      transform: scale(0.9);
+      position: relative;
+      left: 25%;
+
+      p {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-65%,-48%);
+         z-index: 5;
+         color: white;
+         font-size: 3rem;
+         text-align: center;
+
+         span {
+            text-align: center;
+            font-weight: bold;
+            color: #0f0;
+            display: block;
+         }
+      }
+
+      .base {
+         position: absolute;
+         width: 14em;
+         transition: 0.5s;
+
+         &:hover {
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 15px rgba(0,0,0,0.8));
+            cursor: pointer;
+         }
+
+         &:active {
+            transform: scale(0.9);
+            filter: drop-shadow(0 0 8px rgba(0,0,0,0.4));
+         }
+      }
+      .abhishek {
+         @extend .base;
+         top: 10%;
+         left: 35%;
+         width: 12em;
+      }
+      .aman {
+         @extend .base;
+         top: 34%;
+         left: 60%;
+      }
+      .shivam {
+         @extend .base;
+         top: 34%;
+         left: 5%;
+      }
+      .akhil {
+         @extend .abhishek;
+         top: 64%;
+         left: 15%;
+      }
+      .bipin {
+         @extend .base;
+         top: 62%;
+         left: 45%;
+         width: 13em;
+      }
+   }
+
+   .desc {
+      width: 50%;
+      //background: #777;
+      display: flex;
+      flex-direction: column;
+      padding: 10em 4em 2em 4em;
+      color: #ccc;
+
+      h1 {
+         font-size: 3rem;
+      }
+
+      h3 {
+         margin-top: 1em;
+         font-style: italic;
+         color: #0f0;
+      }
+
+      p {
+         font-size: 1.5rem;
+         margin-top: 1em;
+      }
+
+      .social {
+         font-size: 4rem;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         //align-items: center;
+         margin-top: 1em;
+
+         .social_icon {
+            cursor: pointer;
+
+            &:hover {
+               color: #0f0;
+
+            }
+         }
+      }
+
+   }
+}

@@ -1,0 +1,13 @@
+2020-12-11 18:31:25,315 ERROR error_logger Error Deleting a spot: 'spot_id'
+2020-12-11 18:31:35,587 ERROR error_logger Error Deleting a spot: 'spot_id'
+2020-12-12 01:06:55,386 ERROR error_logger Error in create_spot: name 'tagList' is not defined
+2020-12-12 01:16:29,309 ERROR error_logger [API - SpotsViewSet] - Error: 'SpotsSerializer' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/mnt/e/endsem/django-google-maps/core/api/api.py", line 253, in create_spot
+    SpotTagsViewSet().create_spot_tags(serializer.id,kwargs['data']['tag_list'])
+AttributeError: 'SpotsSerializer' object has no attribute 'id'
+2020-12-12 01:16:38,334 ERROR error_logger [API - SpotsViewSet] - Error: 'SpotsSerializer' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/mnt/e/endsem/django-google-maps/core/api/api.py", line 253, in create_spot
+    SpotTagsViewSet().create_spot_tags(serializer.id,kwargs['data']['tag_list'])
+AttributeError: 'SpotsSerializer' object has no attribute 'id'

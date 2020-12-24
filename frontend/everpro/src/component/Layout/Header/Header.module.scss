@@ -1,0 +1,44 @@
+$bg-primary: #323232;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.Header {
+   list-style: none;
+   padding: 1em 8em 1em 1em; /* top right bottom left*/
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   height: 13vh;
+   width: 100%;
+   margin-bottom: 1em;
+   position: fixed;
+   top: 0;
+   right: 0;
+   background: #222;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+   z-index: 10;
+
+   span {
+      font-size: 2rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      padding-left: 12%;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: 3px;
+      color: #ccc;
+
+      span {
+         position: absolute;
+         left: 91%;
+         color: #0f0;
+      }
+   }
+}

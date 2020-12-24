@@ -1,0 +1,39 @@
+.base {
+   position: absolute;
+   height: 12vh;
+   bottom: 12vh;
+   z-index: 4;
+}
+
+.poco {
+   @extend .base;
+   left: 45vw;
+}
+
+.honor {
+   @extend .base;
+   left: 60vw;
+}
+
+.redmi {
+   @extend .base;
+   left: 75vw;
+}
+
+.apple {
+   @extend .base;
+   left: 60vw;
+   bottom: 34vh;
+}
+
+.samsung {
+   @extend .base;
+   left: 52vw;
+   bottom: 23vh;
+}
+
+.vivo {
+   @extend .base;
+   left: 68vw;
+   bottom: 23vh;
+}

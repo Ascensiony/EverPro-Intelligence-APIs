@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308.94 30.64">
+    <defs>
+        <style>.cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}</style>
+        <linearGradient id="linear-gradient" x1="154.38" y1="8.21" x2="154.53" y2="34.6" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="0.28" stop-color="#c9c9c9" stop-opacity="0.76"/>
+            <stop offset="0.93" stop-color="#424242" stop-opacity="0.16"/>
+            <stop offset="1" stop-color="#333" stop-opacity="0.1"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="-151.71" y1="106.86" x2="-151.56" y2="132.83"
+                        gradientTransform="translate(2.96 129.19) rotate(180)" xlink:href="#linear-gradient"/>
+    </defs>
+    <title>table</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <rect class="cls-1" y="15.32" width="308.94" height="15.32" rx="7.66"/>
+            <polygon class="cls-2" points="54.86 0 254.38 0 302.13 15.32 7.12 15.32 54.86 0"/>
+        </g>
+    </g>
+</svg>
