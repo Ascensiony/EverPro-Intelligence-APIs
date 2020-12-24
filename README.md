@@ -440,15 +440,11 @@ coverage report
 For more options like annotated HTML listings detailing missed lines, see the coverage.py docs.
 
 <br/>
-<br/>
-<br/>
 
 ## API Clients
 
 **Market Analysis Potential Customers** for our API vary from business startups to large business houses (product development) to intelligize their product *development/monitoring* process.
 
-<br/>
-<br/>
 <br/>
 
 ## Support
@@ -456,8 +452,6 @@ For more options like annotated HTML listings detailing missed lines, see the co
 You can contribute to this project if you want to.
 Make a Pull Request about it and we'll get back to you.
 
-<br/>
-<br/>
 <br/>
 
 ## OUR TEAM
