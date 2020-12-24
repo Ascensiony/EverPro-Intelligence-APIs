@@ -98,6 +98,8 @@ The complete [Swagger documentation](https://app.swaggerhub.com/apis/SOAD_Group_
 
 ### 1. Inventory Scrapping (INV-SCR)
 
+The objective of this service is to monitor the inventory for a product in real-time. Any change detected is added to our dataframe.
+
 #### Technologies 
 
 - [Django REST framework](https://www.django-rest-framework.org/) is a powerful and flexible toolkit for building Web APIs.
@@ -168,6 +170,9 @@ And
 <br/>
 
 ### 2. Competition Tracking (CMP-TRACK)
+
+The objective of this service is track similar products.
+- [x] Constant monitoring of similar product URL instances.
 
 #### Technologies 
 
@@ -255,7 +260,8 @@ And,
 <br/>
 
 ### 3. Shop Positioning System (SPS)
-A basic example of how to use Google Maps with Django and PostGIS 
+
+This API helps to analyze distribution of shops(**range: 5 Km**).
 
 ![](https://raw.githubusercontent.com/LegolasVzla/django-google-maps/master/core/static/media/app_image1.jpeg "App Image")
 
