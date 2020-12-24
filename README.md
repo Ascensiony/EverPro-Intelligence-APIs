@@ -261,23 +261,18 @@ And,
 
 ### 3. Shop Positioning System (SPS)
 
-This API helps to analyze distribution of shops(**range: 5 Km**).
+This API helps to analyze distribution of shops (**range: 5 Km**).
 
 ![](https://raw.githubusercontent.com/LegolasVzla/django-google-maps/master/core/static/media/app_image1.jpeg "App Image")
 
 #### Technologies
 - [Django REST framework](https://www.django-rest-framework.org/) is a powerful and flexible toolkit for building Web APIs.
 
-- [PostgreSQL](https://www.postgresql.org/) is the World's Most Advanced Open Source Relational Database.
-
 - [PostGIS](http://postgis.net/) is a spatial database extender for PostgreSQL object-relational database. It adds support for geographic objects allowing location queries to be run in SQL.
 
 - [Geopy](https://geopy.readthedocs.io/en/stable/) is a Python client for several popular geocoding web services.
 
 - [Amazon S3](https://aws.amazon.com/s3/): Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
-
-#### Requirements
-- Ubuntu 18
 
 #### Installation
 
