@@ -1,5 +1,5 @@
 <p align="center">
-  <a href=""><img src="./temp.gif" alt="EverPro" width="450" /></a> 
+  <a href=""><img src="./temp.gif" alt="EverPro" width="700" /></a> 
 </p>
 
 <p align="center">
