@@ -457,6 +457,12 @@ Make a Pull Request about it and we'll get back to you.
 
 ## OUR TEAM
 
+- S20180010004: Abhishek Yadav
+- S20180010007: Akhil Sourav
+- S20180010010: Aman Shrivastava
+- S20180010027: Bipin Verma
+- S20180010164: Shivam Nishad
+
 ![team image](https://raw.githubusercontent.com/naklic0der/EVERPRO/main/everpro_team.png)
 
 
