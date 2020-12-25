@@ -21,7 +21,7 @@ EverPro is Web-Application cum collection of product intelligence APIs that help
 
 ## Install
 
-Clone the repository `git clone https://github.com/naklic0der/EVERPRO.git`.
+Clone the repository `git clone https://github.com/Ascensiony/EverPro-Intelligence-APIs.git`.
 
 ### Frontend
 
