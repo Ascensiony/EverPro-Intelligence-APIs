@@ -272,67 +272,7 @@ This API helps to analyze distribution of shops (**range: 5 Km**).
 
 - [Geopy](https://geopy.readthedocs.io/en/stable/) is a Python client for several popular geocoding web services.
 
-- [Amazon S3](https://aws.amazon.com/s3/): Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
-
-#### Installation
-
-```Makefile``` will help you with all the installation. First of all, in ```django-google-maps/core/``` path, execute:
-
-    make setup
-
-This will install PostgreSQL, PostGIS and pip on your system. After that, you need to create and fill up **settings.ini** file, with the structure as below:
-
-    [postgresdbConf]
-    DB_ENGINE=django.contrib.gis.db.backends.postgis
-    DB_NAME=dbname
-    DB_USER=user
-    DB_PASS=password
-    DB_HOST=host
-    DB_PORT=port
-
-    [GEOSGeometryConf]
-    max_distance=5
-
-    [googleMapsConf]
-     API_KEY=yourGoogleAPIKey
-    defaultLat=<Your_default_latitude>
-     defaultLng=<Your_default_lingitude>
-
-    [amazonS3Conf]
-    S3_ACCESS_KEY=<Your_access_key>
-    S3_SECRET_KEY=<Your_secret_key>
-    s3_bucket_name=<Your_bucket_name>
-
-    [font-awesomeConf]
-    KEY=<Your_key>
-
-- postgresdbConf section: fill in with your own PostgreSQL credentials. By default, DB_HOST and DB_PORT in PostgreSQL are localhost/5432. 
-
-- GEOSGeometryConf section: a ```max_distance``` suggested could be from 1-5 kilometers, to display nearby places. 
-
-- googleMapsConf section: google maps API KEY needed to load the map, also default lat and longitude to focus your map
-
-- font-awesomeConf section: optional, if you have a Font Awesome key for icons
-
-Then, activate your virtualenv already installed (by default, is called ```env``` in the ```Makefile```):
-
-    source env/bin/activate
-
-And execute:
-
-    make install
-
-This will generate the database with default data and also it will install python requirements and nltk resources. Default credentials for admin superuser are: admin@admin.com / admin. 
-
-Run django server (by default, host and port are set as 127.0.0.1 and 8000 respectively in the ```Makefile```):
-
-    make execute
-
-You could see the home page in:
-
-    http://127.0.0.1:8000/index/
-
-The map will be set in the ```defaultLat``` and ```defaultLng``` position.
+- [Amazon S3](https://aws.amazon.com/s3/): Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
 
 #### Models
 
