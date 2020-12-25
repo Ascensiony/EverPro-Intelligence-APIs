@@ -403,6 +403,8 @@ Make a Pull Request about it and we'll get back to you.
 - S20180010027: Bipin Verma
 - S20180010164: Shivam Nishad
 
+<p align="center">
+  <a href=""><img src="https://raw.githubusercontent.com/naklic0der/EVERPRO/main/everpro_team.png" alt="EverPro" width="600" /></a>
+</p>
+
 ![team image](https://raw.githubusercontent.com/naklic0der/EVERPRO/main/everpro_team.png)
-
-
