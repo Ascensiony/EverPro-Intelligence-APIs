@@ -17,7 +17,7 @@ EverPro is Web-Application cum collection of product intelligence APIs that help
 - [API Clients](#api-clients)
 - [Testing](#testing)
 - [Support](#support)
-- [OUR TEAM](#our-team)
+- [Our Team](#our-team)
 
 ## Install
 
@@ -395,7 +395,7 @@ Make a Pull Request about it and we'll get back to you.
 
 <br/>
 
-## OUR TEAM
+## Our Team
 
 - S20180010004: Abhishek Yadav
 - S20180010007: Akhil Sourav
