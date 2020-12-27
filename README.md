@@ -66,33 +66,33 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
  
 - Go to `frontend/everpro`
 
-Start the node server
+  Start the node server
 
-```bash
-npm start
-```
+  ```bash
+  npm start
+  ```
  
 - Go to `backend/everpro`
  
-Initiate the Django server
+  Initiate the Django server
 
-```bash
-django r
-```
+  ```bash
+  django r
+  ```
 
-You need 1 in-memory-database and 2 celery servers to run this app:
+  You need 1 in-memory-database and 2 celery servers to run this app:
 
-```bash
-redis-server
-```
+  ```bash
+  redis-server
+  ```
 
-```bash
-celery -A everpro worker -l info
-```
+  ```bash
+  celery -A everpro worker -l info
+  ```
 
-```bash
-celery -A everpro beat -l info
-```
+  ```bash
+  celery -A everpro beat -l info
+  ```
 
 <br/>
 <br/>
