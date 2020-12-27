@@ -64,7 +64,15 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
  ## Quick Start
  
-Go to `backend/everpro`
+- Go to `frontend/everpro`
+
+Start the node server
+
+```bash
+npm start
+```
+ 
+- Go to `backend/everpro`
  
 Initiate the Django server
 
