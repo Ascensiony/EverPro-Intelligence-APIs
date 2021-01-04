@@ -13,8 +13,8 @@ EverPro is Web-Application cum collection of product intelligence APIs that help
 
 - [Install](#install)
 - [Quick Start](#quick-start)
-- [API Documentation](#api-documentation)
 - [API Clients](#api-clients)
+- [API Documentation](#api-documentation)
 - [Testing](#testing)
 - [Support](#support)
 - [Our Team](#our-team)
@@ -97,6 +97,12 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 <br/>
 <br/>
 <br/>
+<br/>
+
+## API Clients
+
+**Market Analysis Potential Customers** for our API vary from business startups to large business houses (product development) to intelligize their product *development/monitoring* process.
+
 <br/>
  
 ## API Documentation
@@ -387,12 +393,6 @@ coverage report
 ```
 
 For more options like annotated HTML listings detailing missed lines, see the coverage.py docs.
-
-<br/>
-
-## API Clients
-
-**Market Analysis Potential Customers** for our API vary from business startups to large business houses (product development) to intelligize their product *development/monitoring* process.
 
 <br/>
 
